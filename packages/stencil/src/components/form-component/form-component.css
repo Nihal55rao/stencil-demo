@@ -1,0 +1,14 @@
+:host {
+  display: block;
+  margin: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  margin-bottom: 15px;
+  padding: 5px;
+}

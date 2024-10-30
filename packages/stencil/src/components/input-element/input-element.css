@@ -1,0 +1,16 @@
+:host {
+  display: block;
+}
+
+.input-element {
+  margin: 16px;
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  padding: 5px;
+  border: 1px solid black ;
+}
+
+.input-label {
+  width: 200px;
+}
