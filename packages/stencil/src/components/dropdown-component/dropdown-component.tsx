@@ -22,8 +22,8 @@ export class DropdownComponent {
       <div class="input-element">
         <label class="input-label">{this.label}</label>
          <select class="select" name={this.name} onInput={(event) => this.handleChange(event)}>
-        {this.options.map(option => (
-          <option value={option} selected={option === this.selectedValue}>
+        {this.options?.map(option => (
+          <option value={option}  selected={option === this.selectedValue}>
             {option}
           </option>
         ))}
